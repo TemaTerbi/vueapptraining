@@ -3,6 +3,7 @@
     <div class="navbar__btn">
       <my-button class="btnglav" @click="$router.push('/')">Главная</my-button>
       <my-button @click="$router.push('/post')">Посты</my-button>
+      <my-button style="margin-left: 1rem" @click="$router.push('/cat')">Котик</my-button>
     </div>
   </div>
 </template>
